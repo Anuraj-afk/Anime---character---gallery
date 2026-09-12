@@ -209,3 +209,49 @@ margin-top: 30px;
 ```
 
 }
+
+/* About Page */
+.about-section {
+    background: white;
+    margin: 50px auto;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.about-section h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.about-section h3 {
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+.about-section p {
+    line-height: 1.8;
+    font-size: 17px;
+}
+
+.about-section li {
+    margin-bottom: 12px;
+    font-size: 17px;
+}
+
+.about-image {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+    .about-section {
+        padding: 25px;
+    }
+
+    .about-section h2 {
+        font-size: 32px;
+    }
+}
