@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Add a Character - AnimeVerse</title>
+
+    <!-- PureCSS -->
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/purecss@3.1.0/build/pure-min.css"
+    >
+
+    <!-- Our CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="container">
+        <h1>⚡ AnimeVerse</h1>
+
+        <nav class="pure-menu pure-menu-horizontal">
+            <ul class="pure-menu-list">
+
+                <li class="pure-menu-item">
+                    <a href="index.html" class="pure-menu-link">Home</a>
+                </li>
+
+                <li class="pure-menu-item">
+                    <a href="details.html" class="pure-menu-link">Details</a>
+                </li>
+
+                <li class="pure-menu-item">
+                    <a href="about.html" class="pure-menu-link">About</a>
+                </li>
+
+                <li class="pure-menu-item">
+                    <a href="new-character-form.html" class="pure-menu-link">
+                        Add a Character
+                    </a>
+                </li>
+
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+<main class="container">
+
+    <section class="character-form-section">
+
+        <h2>Add a New Character</h2>
+
+        <p class="form-intro">
+            Use the form below to add a fictional anime character to
+            the AnimeVerse gallery.
+        </p>
+
+        <form class="pure-form pure-form-stacked">
+
+            <label for="name">Character Name</label>
+            <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter character name"
+            >
+
+            <label for="universe">Universe</label>
+            <input
+                type="text"
+                id="universe"
+                name="universe"
+                placeholder="Enter anime universe"
+            >
+
+            <label for="role">Role</label>
+            <input
+                type="text"
+                id="role"
+                name="role"
+                placeholder="Example: Warrior, Hero, Villain"
+            >
+
+            <label for="image">Image URL</label>
+            <input
+                type="url"
+                id="image"
+                name="image"
+                placeholder="https://example.com/image.jpg"
+            >
+
+            <label for="description">Short Description</label>
+            <textarea
+                id="description"
+                name="description"
+                rows="6"
+                placeholder="Enter a short description of the character"
+            ></textarea>
+
+            <button type="submit" class="pure-button pure-button-primary">
+                Add Character
+            </button>
+
+        </form>
+
+        <p class="form-note">
+            Note: This is a static website, so the form does not
+            actually submit or save characters.
+        </p>
+
+    </section>
+
+</main>
+
+
+<footer>
+    <p>© 2026 AnimeVerse | Fictional Character Gallery</p>
+</footer>
+
+</body>
+</html>

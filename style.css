@@ -255,3 +255,54 @@ margin-top: 30px;
         font-size: 32px;
     }
 }
+
+/* New Character Form */
+.character-form-section {
+    background: white;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.character-form-section h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.form-intro {
+    text-align: center;
+    margin-bottom: 35px;
+    line-height: 1.6;
+}
+
+.character-form-section input,
+.character-form-section textarea {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.character-form-section button {
+    margin-top: 10px;
+}
+
+.form-note {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
+
+@media (max-width: 700px) {
+    .character-form-section {
+        padding: 25px;
+        margin: 30px auto;
+    }
+
+    .character-form-section h2 {
+        font-size: 32px;
+    }
+}
