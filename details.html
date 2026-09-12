@@ -1,176 +1,453 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-```
-<title>Goku - AnimeVerse</title>
+    <title>Character Details - AnimeVerse</title>
 
-<!-- PureCSS -->
-<link
-    rel="stylesheet"
-    href="https://unpkg.com/purecss@3.1.0/build/pure-min.css"
->
+    <!-- PureCSS -->
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/purecss@3.1.0/build/pure-min.css"
+    >
 
-<!-- Our CSS -->
-<link rel="stylesheet" href="style.css">
-```
+    <!-- Our CSS -->
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
 
-```
-<!-- Navigation -->
-<header>
-    <div class="container">
-        <h1>⚡ AnimeVerse</h1>
 
-        <nav class="pure-menu pure-menu-horizontal">
-            <ul class="pure-menu-list">
+    <!-- Navigation -->
+    <header>
 
-                <li class="pure-menu-item">
-                    <a href="index.html" class="pure-menu-link">
-                        Home
-                    </a>
-                </li>
+        <div class="container">
 
-                <li class="pure-menu-item">
-                    <a href="details.html" class="pure-menu-link">
-                        Details
-                    </a>
-                </li>
+            <h1>⚡ AnimeVerse</h1>
 
-                <li class="pure-menu-item">
-                    <a href="about.html" class="pure-menu-link">
-                        About
-                    </a>
-                </li>
+            <nav class="pure-menu pure-menu-horizontal">
 
-                <li class="pure-menu-item">
-                    <a href="new-character-form.html" class="pure-menu-link">
-                        Add a Character
-                    </a>
-                </li>
+                <ul class="pure-menu-list">
 
-            </ul>
-        </nav>
-    </div>
-</header>
+                    <li class="pure-menu-item">
+                        <a href="index.html" class="pure-menu-link">
+                            Home
+                        </a>
+                    </li>
 
+                    <li class="pure-menu-item">
+                        <a href="details.html#goku" class="pure-menu-link">
+                            Details
+                        </a>
+                    </li>
 
-<!-- Character Details -->
-<main class="container">
+                    <li class="pure-menu-item">
+                        <a href="about.html" class="pure-menu-link">
+                            About
+                        </a>
+                    </li>
 
-    <section class="character-details">
+                    <li class="pure-menu-item">
+                        <a href="new-character-form.html" class="pure-menu-link">
+                            Add a Character
+                        </a>
+                    </li>
 
-        <h2>Goku</h2>
-
-        <div class="details-layout">
-
-            <!-- Character Image -->
-            <div class="details-image">
-                <img
-                    src="https://placehold.co/600x800?text=Goku"
-                    alt="Goku from Dragon Ball"
-                >
-            </div>
-
-
-            <!-- Character Information -->
-            <div class="details-content">
-
-                <h3>Character Information</h3>
-
-                <p>
-                    <strong>Full Name:</strong> Son Goku
-                </p>
-
-                <p>
-                    <strong>Universe:</strong> Dragon Ball
-                </p>
-
-                <p>
-                    <strong>Species:</strong> Saiyan
-                </p>
-
-                <p>
-                    <strong>Role:</strong> Warrior and Protector
-                </p>
-
-                <p>
-                    <strong>Power Level:</strong> Legendary
-                </p>
-
-
-                <h3>Backstory</h3>
-
-                <p>
-                    Goku is a Saiyan warrior who was sent to Earth as a
-                    young child. After growing up on Earth, he became a
-                    skilled martial artist and dedicated his life to
-                    protecting his friends, family, and the planet.
-                </p>
-
-                <p>
-                    Throughout his journey, Goku faces powerful opponents,
-                    discovers new abilities, and continues training to
-                    reach greater levels of strength.
-                </p>
-
-
-                <h3>Abilities</h3>
-
-                <ul>
-                    <li>Super Saiyan transformations</li>
-                    <li>Kamehameha energy attack</li>
-                    <li>Instant Transmission</li>
-                    <li>Advanced martial arts</li>
-                    <li>Extreme physical strength and speed</li>
                 </ul>
 
-
-                <h3>Personality</h3>
-
-                <p>
-                    Goku is cheerful, energetic, curious, and highly
-                    competitive. He enjoys training and challenging
-                    strong opponents. Despite his love of fighting,
-                    he deeply cares about his friends and is willing
-                    to protect others when they are in danger.
-                </p>
-
-
-                <h3>First Appearance</h3>
-
-                <p>
-                    Goku first appeared in the manga
-                    <em>Dragon Ball</em> in 1984.
-                </p>
-
-            </div>
+            </nav>
 
         </div>
 
-        <a
-            href="index.html"
-            class="pure-button pure-button-primary back-button"
-        >
-            ← Back to Gallery
-        </a>
-
-    </section>
-
-</main>
+    </header>
 
 
-<!-- Footer -->
-<footer>
-    <p>© 2026 AnimeVerse | Fictional Character Gallery</p>
-</footer>
-```
+    <!-- Main Content -->
+    <main class="container">
+
+        <section class="character-details">
+
+            <h2>Anime Character Details</h2>
+
+
+            <!-- GOKU -->
+            <div class="character-detail-card" id="goku">
+
+                <div class="detail-character-image">
+
+                    <img
+                        src="goku.png"
+                        alt="Goku from Dragon Ball"
+                    >
+
+                </div>
+
+                <div class="detail-character-info">
+
+                    <h3>Goku</h3>
+
+                    <p>
+                        <strong>Anime:</strong>
+                        Dragon Ball
+                    </p>
+
+                    <p>
+                        <strong>Species:</strong>
+                        Saiyan
+                    </p>
+
+                    <p>
+                        <strong>Role:</strong>
+                        Warrior and Protector
+                    </p>
+
+                    <p>
+                        <strong>Power Level:</strong>
+                        Legendary
+                    </p>
+
+                    <p>
+                        Goku is a powerful Saiyan warrior who protects
+                        Earth and his friends. He loves training and
+                        becoming stronger.
+                    </p>
+
+                    <p>
+                        <strong>Backstory:</strong>
+                        Goku was sent to Earth as a young Saiyan.
+                        He grew up on Earth and became a skilled
+                        martial artist and powerful warrior.
+                    </p>
+
+                    <p>
+                        <strong>Abilities:</strong>
+                        Super Saiyan transformations, Kamehameha,
+                        Instant Transmission, and advanced martial arts.
+                    </p>
+
+                    <p>
+                        <strong>Personality:</strong>
+                        Goku is cheerful, energetic, competitive,
+                        and always excited to meet strong opponents.
+                    </p>
+
+                    <p>
+                        <strong>First Appearance:</strong>
+                        Dragon Ball manga, 1984.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- NARUTO -->
+            <div class="character-detail-card" id="naruto">
+
+                <div class="detail-character-image">
+
+                    <img
+                        src="naruto.png"
+                        alt="Naruto Uzumaki from Naruto"
+                    >
+
+                </div>
+
+                <div class="detail-character-info">
+
+                    <h3>Naruto Uzumaki</h3>
+
+                    <p>
+                        <strong>Anime:</strong>
+                        Naruto
+                    </p>
+
+                    <p>
+                        <strong>Species:</strong>
+                        Human
+                    </p>
+
+                    <p>
+                        <strong>Role:</strong>
+                        Ninja and Leader
+                    </p>
+
+                    <p>
+                        <strong>Power Level:</strong>
+                        Legendary
+                    </p>
+
+                    <p>
+                        Naruto is a determined ninja from the Hidden
+                        Leaf Village. His dream is to become Hokage
+                        and protect his friends.
+                    </p>
+
+                    <p>
+                        <strong>Backstory:</strong>
+                        Naruto grew up as an orphan in the Hidden Leaf
+                        Village. Despite being treated as an outsider,
+                        he worked hard to become a respected ninja.
+                    </p>
+
+                    <p>
+                        <strong>Abilities:</strong>
+                        Shadow Clone Jutsu, Rasengan, Sage Mode,
+                        and powerful chakra techniques.
+                    </p>
+
+                    <p>
+                        <strong>Personality:</strong>
+                        Naruto is energetic, determined, friendly,
+                        and never gives up on his goals.
+                    </p>
+
+                    <p>
+                        <strong>First Appearance:</strong>
+                        Naruto manga, 1999.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- LUFFY -->
+            <div class="character-detail-card" id="luffy">
+
+                <div class="detail-character-image">
+
+                    <img
+                        src="luffy.png"
+                        alt="Monkey D. Luffy from One Piece"
+                    >
+
+                </div>
+
+                <div class="detail-character-info">
+
+                    <h3>Monkey D. Luffy</h3>
+
+                    <p>
+                        <strong>Anime:</strong>
+                        One Piece
+                    </p>
+
+                    <p>
+                        <strong>Species:</strong>
+                        Human
+                    </p>
+
+                    <p>
+                        <strong>Role:</strong>
+                        Pirate Captain
+                    </p>
+
+                    <p>
+                        <strong>Power Level:</strong>
+                        Legendary
+                    </p>
+
+                    <p>
+                        Luffy is the captain of the Straw Hat Pirates.
+                        He dreams of becoming the Pirate King.
+                    </p>
+
+                    <p>
+                        <strong>Backstory:</strong>
+                        Luffy grew up inspired by the pirate
+                        Shanks. He later formed his own crew and
+                        began a journey across the Grand Line.
+                    </p>
+
+                    <p>
+                        <strong>Abilities:</strong>
+                        Gear transformations, Haki, rubber-like
+                        abilities, and powerful attacks.
+                    </p>
+
+                    <p>
+                        <strong>Personality:</strong>
+                        Luffy is adventurous, fearless, loyal,
+                        optimistic, and loves helping his friends.
+                    </p>
+
+                    <p>
+                        <strong>First Appearance:</strong>
+                        One Piece manga, 1997.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- GOJO -->
+            <div class="character-detail-card" id="gojo">
+
+                <div class="detail-character-image">
+
+                    <img
+                        src="gojo.png"
+                        alt="Gojo Satoru from Jujutsu Kaisen"
+                    >
+
+                </div>
+
+                <div class="detail-character-info">
+
+                    <h3>Gojo Satoru</h3>
+
+                    <p>
+                        <strong>Anime:</strong>
+                        Jujutsu Kaisen
+                    </p>
+
+                    <p>
+                        <strong>Species:</strong>
+                        Human
+                    </p>
+
+                    <p>
+                        <strong>Role:</strong>
+                        Jujutsu Sorcerer and Teacher
+                    </p>
+
+                    <p>
+                        <strong>Power Level:</strong>
+                        Special Grade
+                    </p>
+
+                    <p>
+                        Gojo is one of the strongest jujutsu
+                        sorcerers. He teaches students at
+                        Tokyo Jujutsu High.
+                    </p>
+
+                    <p>
+                        <strong>Backstory:</strong>
+                        Gojo was born into the famous Gojo family
+                        and inherited powerful abilities that made
+                        him an exceptional sorcerer.
+                    </p>
+
+                    <p>
+                        <strong>Abilities:</strong>
+                        Limitless, Six Eyes, Infinity,
+                        and Domain Expansion.
+                    </p>
+
+                    <p>
+                        <strong>Personality:</strong>
+                        Gojo is confident, playful, intelligent,
+                        and protective of his students.
+                    </p>
+
+                    <p>
+                        <strong>First Appearance:</strong>
+                        Jujutsu Kaisen manga, 2018.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- ICHIGO -->
+            <div class="character-detail-card" id="ichigo">
+
+                <div class="detail-character-image">
+
+                    <img
+                        src="ichigo.png"
+                        alt="Ichigo Kurosaki from Bleach"
+                    >
+
+                </div>
+
+                <div class="detail-character-info">
+
+                    <h3>Ichigo Kurosaki</h3>
+
+                    <p>
+                        <strong>Anime:</strong>
+                        Bleach
+                    </p>
+
+                    <p>
+                        <strong>Species:</strong>
+                        Human and Soul Reaper
+                    </p>
+
+                    <p>
+                        <strong>Role:</strong>
+                        Substitute Soul Reaper
+                    </p>
+
+                    <p>
+                        <strong>Power Level:</strong>
+                        Legendary
+                    </p>
+
+                    <p>
+                        Ichigo becomes a Soul Reaper and protects
+                        humans from dangerous spirits known as Hollows.
+                    </p>
+
+                    <p>
+                        <strong>Backstory:</strong>
+                        Ichigo gains Soul Reaper powers after
+                        meeting Rukia Kuchiki. He accepts his new
+                        responsibility and begins protecting others.
+                    </p>
+
+                    <p>
+                        <strong>Abilities:</strong>
+                        Zangetsu, Bankai, Getsuga Tensho,
+                        Hollow powers, and high-speed combat.
+                    </p>
+
+                    <p>
+                        <strong>Personality:</strong>
+                        Ichigo is serious, brave, protective,
+                        and willing to risk himself for others.
+                    </p>
+
+                    <p>
+                        <strong>First Appearance:</strong>
+                        Bleach manga, 2001.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- Back Button -->
+            <a
+                href="index.html"
+                class="pure-button pure-button-primary back-button"
+            >
+                ← Back to Gallery
+            </a>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            © 2026 AnimeVerse | Fictional Character Gallery
+        </p>
+
+    </footer>
+
 
 </body>
 </html>
